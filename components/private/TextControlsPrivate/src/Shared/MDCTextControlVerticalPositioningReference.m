@@ -34,11 +34,12 @@ CGFloat MDCTextControlCalculateContainerHeightWithFloatingLabelHeight(
 
 CGFloat MDCTextControlClampDensity(CGFloat density) {
   CGFloat clampedDensity = density;
-  if (clampedDensity < 0) {
-    clampedDensity = 0;
-  } else if (clampedDensity > 1) {
-    clampedDensity = 1;
-  }
+    //increse textfiled height as per dentisity
+//  if (clampedDensity < 0) {
+//    clampedDensity = 0;
+//  } else if (clampedDensity > 1) {
+//    clampedDensity = 1;
+//  }
   return clampedDensity;
 }
 
